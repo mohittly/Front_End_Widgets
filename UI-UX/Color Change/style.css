@@ -1,0 +1,11 @@
+body {animation: change 15s infinite;}
+
+@keyframes change {
+
+	0% {background:#9b59b6;}
+	25% {background:#e74c3c;}
+	50% {background:#3498db;}
+	75% {background:#1abc9c;}
+	100% {background:#9b59b6;}
+
+}

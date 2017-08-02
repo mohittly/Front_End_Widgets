@@ -1,0 +1,74 @@
+body
+{
+	background: white;
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+	margin: 100px auto;
+	width: 600px;
+
+}
+
+.imageContainer
+{
+	position: relative;
+	overflow:hidden;
+
+}
+
+.imageContainer img
+{
+	width: 100%;
+	transition: .5s;
+}
+
+.textLayer
+{
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background:rgba(230,126,34,.9);
+	transition: .5s;
+}
+
+.textLayer h2
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color:#fff;
+	font-family: calibri;
+}
+
+.imageContainer:hover .textLayer
+{
+	left:0%;
+}
+
+.imageContainer:hover img
+{
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

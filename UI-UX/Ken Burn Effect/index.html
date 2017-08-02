@@ -1,0 +1,45 @@
+<html>
+<title>UI/UX -1 KEN BURNS EFFECT</title>
+<style type="text/css">
+	
+	#container {
+		width: 650px;
+		height: 500px;
+		overflow: hidden;
+		border: 10px #333 solid;
+	}
+
+	#container img {
+
+		animation: kenburns 20s infinite;
+	}
+
+	@keyframes kenburns {
+
+		0% {
+			opacity: 0;
+		}
+		5% {
+			opacity: 1;
+		}
+		95% {
+			transform: scale3d(1.5,1.5,1.5) translate3d(-390px,-220px,0px);
+			animation-timing-function: ease-in;
+			opacity: 1;
+		}
+		100% {
+			transform: scale3d(2,2,2) translate3d(-370, -200, 0px);
+			opacity: 0;
+		}
+	}
+
+</style>
+
+<body>
+<h1 style="text-align:center;color:#8e44ad;font-family:calibri">The Ken Burns Effect</h1>
+<center><div id="container">
+	<img src="a.jpg">
+</div>
+</center>
+</body>
+</html>
